@@ -149,7 +149,7 @@ I'm an aspiring **Software Engineer** passionate about building scalable applica
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<a href="https://www.linkedin.com/in/deepanshu-bansal-23b0aa314" target="_blank" rel="noopener noreferrer">
+<a href="https://www.linkedin.com/in/deepanshu-bansal-55db36" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
