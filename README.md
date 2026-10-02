@@ -5,40 +5,29 @@
 </p>
 
 <h3 align="center">
-💻 Software Engineer • 🌐 Full-Stack Developer • 🤖 AI & ML Enthusiast • 🎬 Digital Content Creator
+📊 Data Analyst • 🗄️ SQL & Data Wrangling • 📈 Power BI Dashboards • 🐍 Python Analytics
 </h3>
 
-<p align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=1000&lines=Building+Software+That+Matters;Full-Stack+Developer;Artificial+Intelligence+Explorer;Problem+Solver+%7C+Continuous+Learner;Creating+Technology+with+Creativity"/>
-
-</p>
-
----
 
 <table>
 <tr>
 
-<td width="55%">
+<td width="60%">
 
 # 🚀 About Me
 
-I'm an aspiring **Software Engineer** passionate about building scalable applications and solving real-world problems.
+I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights from raw datasets, building interactive business dashboards, and helping organizations make data-driven decisions.
 
-- 💻 Software Engineering
-- 🌐 Full-Stack Web Development
-- 🤖 Artificial Intelligence & Machine Learning
-- 📊 Data Analytics & Visualization
-- 🧩 Data Structures & Algorithms
-- ⚙️ Open Source & Modern Development
-- 🎬 Digital Content Creation
-- 🎨 Graphic Design & Video Editing
+- 📊 **Core Focus:** Exploratory Data Analysis (EDA), KPI Tracking & Business Dashboards
+- 🗄️ **Querying & Modeling:** Advanced SQL (Joins, Window Functions, CTEs, Aggregations)
+- 📈 **Business Intelligence:** Interactive Power BI Dashboards, DAX Measures & What-If Simulations
+- 🐍 **Data Engineering & Scripting:** Python (Pandas, NumPy, Data Cleaning & Feature Engineering)
 
 </td>
 
-<td align="center">
+<td align="center" width="40%">
 
-<img width="320" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+<img width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
 </td>
 
@@ -47,96 +36,63 @@ I'm an aspiring **Software Engineer** passionate about building scalable applica
 
 ---
 
-# 💻 Tech Stack
+# 🛠️️ Analytics Tech Stack
 
-## 👨‍💻 Programming Languages
+## 📊 Business Intelligence & Data Analysis
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript&theme=dark"/>
-
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/DAX-2E86C1?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Data_Storytelling-E67E22?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/KPI_Scorecards-16A085?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🌐 Frontend Development
+## 🗄️ Database & Querying
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react&theme=dark"/>
-
+<img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
 </p>
 
 ---
 
-## ⚙️ Backend Development
+## 🐍 Data Manipulation & Programming
 
 <p align="center">
+<img src="https://skillicons.dev/icons?i=python&theme=dark"/>
+</p>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark"/>
-
+<p align="center">
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
 </p>
 
 ---
 
-## 🗄️ Database
+# 📂 Featured Analytics Projects
 
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark"/>
-
-</p>
+| Project | Tech Stack | Key Focus & Impact | Links |
+| :--- | :--- | :--- | :---: |
+| **Customer Churn & Retention Intelligence** | Python, MSSQL, Power BI, DAX | Analyzed **1M+ customer records**, mapped a **$364M monthly revenue loss**, and built dynamic **What-If simulation** saving $218M+ annually. | [Repository](https://github.com/bansal-deepu) • [Report](https://github.com/bansal-deepu) |
 
 ---
 
-## 🛠️ Developer Tools
+# 🚀 Analytics & Domain Interests
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,bash,postman,docker&theme=dark"/>
-
-</p>
-
----
-
-# 🚀 Areas of Interest
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-0A66C2?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Machine%20Learning-8A2BE2?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Generative%20AI-0096FF?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Full%20Stack-00B894?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/System%20Design-F39C12?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Data%20Analytics-E74C3C?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Open%20Source-2ECC71?style=for-the-badge"/>
-
-</p>
-
----
-
-# 🎨 Beyond Coding
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Graphic%20Design-FF6B6B?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Video%20Editing-6C5CE7?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Content%20Creation-0984E3?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/AI%20Tools-1ABC9C?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Prompt%20Engineering-34495E?style=for-the-badge"/>
-
+<img src="https://img.shields.io/badge/Customer_Churn_Analysis-E74C3C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Revenue_Optimization-27AE60?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Cohort_Analysis-8E44AD?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Predictive_Modeling-2980B9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Machine_Learning-34495E?style=for-the-badge"/>
 </p>
 
 ---
@@ -144,7 +100,6 @@ I'm an aspiring **Software Engineer** passionate about building scalable applica
 # 🤝 Connect With Me
 
 <p align="center">
-
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Bansaldeepanshu1976@gmail.com" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
@@ -156,14 +111,13 @@ I'm an aspiring **Software Engineer** passionate about building scalable applica
 <a href="https://github.com/bansal-deepu" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-
 </p>
 
 ---
 
 <h2 align="center">
-
-💡 *"Code • Learn • Build • Create • Repeat"*
+💡 *"Query • Analyze • Visualize • Solve • Repeat"*
+</h2>
 
 </h2>
 
