@@ -5,9 +5,8 @@
 </p>
 
 <h3 align="center">
-📊 Data Analyst • 🗄️ SQL & Data Wrangling • 📈 Power BI Dashboards • 🐍 Python Analytics
+📊 Data Analyst • 🗄️️ SQL & Data Wrangling • 📈 Power BI Dashboards • 🐍 Python Analytics
 </h3>
-
 
 <table>
 <tr>
@@ -36,7 +35,7 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 
 ---
 
-# 🛠️️ Analytics Tech Stack
+# 🛠 Analytics Tech Stack
 
 ## 📊 Business Intelligence & Data Analysis
 
@@ -81,7 +80,7 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 
 | Project | Tech Stack | Key Focus & Impact | Links |
 | :--- | :--- | :--- | :---: |
-| **Customer Churn & Retention Intelligence** | Python, MSSQL, Power BI, DAX | Analyzed **1M+ customer records**, mapped a **$364M monthly revenue loss**, and built dynamic **What-If simulation** saving $218M+ annually. | [Repository](https://github.com/bansal-deepu) • [Report](https://github.com/bansal-deepu) |
+| **Telecom Customer Churn & Retention Analysis** | Python, MS SQL Server, Power BI, DAX | Analyzed **1,000,000 subscriber records**, diagnosed **$364.32M monthly revenue loss**, and modeled **$218.59M annual revenue recovery** with dynamic DAX What-If simulation. | [📁 Repository](https://github.com/bansal-deepu/Customer_Churn_Analysis) • [📖 Readme & Insights](https://github.com/bansal-deepu/Customer_Churn_Analysis#readme) |
 
 ---
 
@@ -97,7 +96,12 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 
 ---
 
-# 🤝 Connect With Me
+## 👤 Author & Connect
+
+**Deepanshu Bansal**  
+* 💼 [LinkedIn Profile](https://www.linkedin.com/in/deepanshu-bansal-55db36)  
+* 🐙 [GitHub Profile](https://github.com/bansal-deepu)  
+* ✉️ Bansaldeepanshu1976@gmail.com
 
 <p align="center">
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Bansaldeepanshu1976@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -116,9 +120,7 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 ---
 
 <h2 align="center">
-💡 *"Query • Analyze • Visualize • Solve • Repeat"*
-</h2>
-
+💡 *"Turning Raw Data into Strategic Business Decisions."*
 </h2>
 
 <p align="center">
