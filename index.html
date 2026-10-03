@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepanshu Bansal | Data Analyst Portfolio</title>
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: rgba(22, 27, 46, 0.7);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --primary: #38bdf8;
+      --accent: #818cf8;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --glow: rgba(56, 189, 248, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(129, 140, 248, 0.08) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Navbar */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(16px);
+      background: rgba(11, 15, 25, 0.85);
+      border-bottom: 1px solid var(--card-border);
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+    }
+    .logo {
+      font-weight: 800;
+      font-size: 1.25rem;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    .nav-links a {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      transition: color 0.2s;
+    }
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.25s ease;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #0284c7, #6366f1);
+      color: #fff;
+      box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 25px rgba(99, 102, 241, 0.45);
+    }
+    .btn-outline {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+    }
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 90px 0 60px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 16px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      border-radius: 999px;
+      color: var(--primary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+    .hero h1 {
+      font-size: 3.2rem;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto 30px;
+      color: var(--text-muted);
+      font-size: 1.15rem;
+    }
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* Section Headers */
+    .section-title {
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-title i {
+      color: var(--primary);
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    /* Tech Stack */
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .stack-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+      backdrop-filter: blur(8px);
+    }
+    .stack-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+      color: #e2e8f0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .pill-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .pill {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      padding: 5px 12px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      color: #cbd5e1;
+    }
+
+    /* Projects */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+      gap: 24px;
+    }
+    @media (max-width: 600px) {
+      .project-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 2.2rem; }
+    }
+    .project-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 28px;
+      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .project-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(56, 189, 248, 0.4);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+    .project-card h3 {
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .project-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+    .impact-highlight {
+      background: rgba(56, 189, 248, 0.08);
+      border-left: 3px solid var(--primary);
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      color: #e2e8f0;
+      margin-bottom: 20px;
+    }
+    .card-links {
+      display: flex;
+      gap: 12px;
+    }
+    .card-link {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .card-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Certifications */
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 18px;
+    }
+    .cert-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .cert-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+    .cert-info h4 {
+      font-size: 0.98rem;
+      color: #f8fafc;
+      margin-bottom: 4px;
+    }
+    .cert-info span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .cert-action {
+      color: var(--primary);
+      font-size: 1.1rem;
+      padding: 8px;
+      border-radius: 8px;
+      background: rgba(56, 189, 248, 0.08);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 50px 0 30px;
+      margin-top: 60px;
+      text-align: center;
+    }
+    .social-row {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .social-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--card-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      color: var(--text);
+      transition: all 0.2s;
+    }
+    .social-btn:hover {
+      background: var(--primary);
+      color: #0b0f19;
+      transform: translateY(-3px);
+    }
+    footer p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">Deepanshu.data</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Certificates</a>
+          <a href="./resume/Deepanshu_Bansal_Resume.docx" class="btn btn-outline" style="padding: 6px 14px; font-size: 0.85rem;" target="_blank">
+            <i class="fa-solid fa-file-arrow-down"></i> Resume
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="about">
+    <div class="container">
+      <span class="badge"><i class="fa-solid fa-chart-line"></i> Aspiring Data Analyst</span>
+      <h1>Turning Raw Data Into<br/><span style="background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Strategic Business Decisions</span></h1>
+      <p>
+        Focused on exploratory data analysis, business intelligence, KPI scorecards, and predictive modeling using SQL, Power BI, Python & Excel.
+      </p>
+      <div class="hero-actions">
+        <a href="./resume/Deepanshu_Bansal_Resume.docx" class="btn btn-primary" target="_blank">
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+        <a href="https://www.linkedin.com/in/deepanshu-bansal-55db36" target="_blank" class="btn btn-outline">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/bansal-deepu" target="_blank" class="btn btn-outline">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-layer-group"></i> Analytics Tech Stack</h2>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <h3><i class="fa-solid fa-chart-pie" style="color: #f59e0b;"></i> Business Intelligence</h3>
+          <div class="pill-container">
+            <span class="pill">Power BI</span>
+            <span class="pill">DAX Modeling</span>
+            <span class="pill">Power Query</span>
+            <span class="pill">Microsoft Excel</span>
+            <span class="pill">KPI Dashboards</span>
+            <span class="pill">Data Storytelling</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3><i class="fa-solid fa-database" style="color: #38bdf8;"></i> Database & Querying</h3>
+          <div class="pill-container">
+            <span class="pill">MS SQL Server</span>
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">MySQL</span>
+            <span class="pill">CTEs & Window Funcs</span>
+            <span class="pill">Aggregations</span>
+            <span class="pill">Star Schema</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3><i class="fa-brands fa-python" style="color: #60a5fa;"></i> Python Analytics</h3>
+          <div class="pill-container">
+            <span class="pill">Pandas</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">Matplotlib</span>
+            <span class="pill">Seaborn</span>
+            <span class="pill">Jupyter Notebook</span>
+            <span class="pill">Data Wrangling</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-folder-open"></i> Featured Analytics Projects</h2>
+      <div class="project-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div>
+            <h3>Telecom Customer Churn & Retention</h3>
+            <p>
+              In-depth analysis of 1M subscriber records to diagnose customer attrition patterns and build interactive retention scorecards.
+            </p>
+            <div class="impact-highlight">
+              💡 <strong>Impact:</strong> Diagnosed $364.32M monthly churn loss and modeled $218.59M annual revenue recovery using DAX What-If simulation.
+            </div>
+            <div class="pill-container" style="margin-bottom: 20px;">
+              <span class="pill">Python</span>
+              <span class="pill">MS SQL Server</span>
+              <span class="pill">Power BI</span>
+              <span class="pill">DAX</span>
+            </div>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/bansal-deepu/Customer_Churn_Analysis" target="_blank" class="card-link">
+              <i class="fa-brands fa-github"></i> View Repo
+            </a>
+            <a href="https://github.com/bansal-deepu/Customer_Churn_Analysis#readme" target="_blank" class="card-link">
+              <i class="fa-solid fa-book-open"></i> Insights & Docs
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div>
+            <h3>Enterprise Sales Performance & Margins</h3>
+            <p>
+              Comprehensive retail transaction analysis identifying promotional discount efficiency and margin leakage across multi-year orders.
+            </p>
+            <div class="impact-highlight">
+              💡 <strong>Impact:</strong> Analyzed $122.31M Net Sales across 3,510 orders; uncovered flash sale margin dilution vs high ROI summer promotions.
+            </div>
+            <div class="pill-container" style="margin-bottom: 20px;">
+              <span class="pill">Power BI</span>
+              <span class="pill">DAX What-If</span>
+              <span class="pill">Power Query</span>
+              <span class="pill">Excel</span>
+            </div>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/bansal-deepu/Sales_Data_Analysis" target="_blank" class="card-link">
+              <i class="fa-brands fa-github"></i> View Repo
+            </a>
+            <a href="https://github.com/bansal-deepu/Sales_Data_Analysis#readme" target="_blank" class="card-link">
+              <i class="fa-solid fa-book-open"></i> Insights & Docs
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-award"></i> Verified Credentials</h2>
+      <div class="cert-grid">
+
+        <a href="./certificates/Data%20Analyst%20Basics%20to%20Advanced%20Certificate.pdf" target="_blank" class="cert-card">
+          <div class="cert-info">
+            <h4>Data Analyst: Basics to Advanced</h4>
+            <span>Data Analytics</span>
+          </div>
+          <div class="cert-action"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </a>
+
+        <a href="./certificates/SQL%20Certificate.pdf" target="_blank" class="cert-card">
+          <div class="cert-info">
+            <h4>SQL Certificate</h4>
+            <span>Database & Querying</span>
+          </div>
+          <div class="cert-action"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </a>
+
+        <a href="./certificates/Power%20BI%20certificate.pdf" target="_blank" class="cert-card">
+          <div class="cert-info">
+            <h4>Power BI Certificate</h4>
+            <span>Business Intelligence</span>
+          </div>
+          <div class="cert-action"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </a>
+
+        <a href="./certificates/Python%20Pro%20certificate.pdf" target="_blank" class="cert-card">
+          <div class="cert-info">
+            <h4>Python Pro Certificate</h4>
+            <span>Data Manipulation & Scripting</span>
+          </div>
+          <div class="cert-action"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </a>
+
+        <a href="./certificates/Microsoft%20Excel%20Begineer%20to%20Advance%20certificate.pdf" target="_blank" class="cert-card">
+          <div class="cert-info">
+            <h4>Microsoft Excel: Beginner to Advance</h4>
+            <span>Spreadsheets & Modeling</span>
+          </div>
+          <div class="cert-action"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </a>
+
+        <a href="./certificates/Mathematics%20Basics%20to%20advanced%20certificate%20for%20data%20science.pdf" target="_blank" class="cert-card">
+          <div class="cert-info">
+            <h4>Mathematics for Data Science</h4>
+            <span>Math & Statistics</span>
+          </div>
+          <div class="cert-action"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="social-row">
+        <a href="mailto:deepanshubansal.work@gmail.com" class="social-btn" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/deepanshu-bansal-55db36" target="_blank" class="social-btn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/bansal-deepu" target="_blank" class="social-btn" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <p>Deepanshu Bansal • Gharaunda, Haryana, India</p>
+      <p style="margin-top: 6px; font-size: 0.8rem; color: #64748b;">© 2026 Deepanshu Bansal. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
