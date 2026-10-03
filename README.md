@@ -5,7 +5,7 @@
 </p>
 
 <h3 align="center">
-📊 Data Analyst • 🗄️️ SQL & Data Wrangling • 📈 Power BI Dashboards • 🐍 Python Analytics
+📊 Data Analyst • 🗄 SQL & Data Wrangling • 📈 Power BI Dashboards • 🐍 Python Analytics
 </h3>
 
 <table>
@@ -19,7 +19,7 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 
 - 📊 **Core Focus:** Exploratory Data Analysis (EDA), KPI Tracking & Business Dashboards
 - 🗄️ **Querying & Modeling:** Advanced SQL (Joins, Window Functions, CTEs, Aggregations)
-- 📈 **Business Intelligence:** Interactive Power BI Dashboards, DAX Measures & What-If Simulations
+- 📈 **Business Intelligence:** Interactive Power BI Dashboards, Star Schema Modeling & DAX What-If Parameters
 - 🐍 **Data Engineering & Scripting:** Python (Pandas, NumPy, Data Cleaning & Feature Engineering)
 
 </td>
@@ -81,17 +81,18 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 | Project | Tech Stack | Key Focus & Impact | Links |
 | :--- | :--- | :--- | :---: |
 | **Telecom Customer Churn & Retention Analysis** | Python, MS SQL Server, Power BI, DAX | Analyzed **1,000,000 subscriber records**, diagnosed **$364.32M monthly revenue loss**, and modeled **$218.59M annual revenue recovery** with dynamic DAX What-If simulation. | [📁 Repository](https://github.com/bansal-deepu/Customer_Churn_Analysis) • [📖 Readme & Insights](https://github.com/bansal-deepu/Customer_Churn_Analysis#readme) |
+| **Enterprise Sales Performance & Margin Optimization** | Power BI, Power Query, DAX, Excel | Analyzed multi-year retail transactions across **$122.31M Net Sales** and **3,510 orders**. Uncovered promotional discount dilution in flash sales vs high ROI in summer sales, modeled dynamic bottom-line margins with DAX What-If parameters, and built dual-period benchmarking. | [📁 Repository](https://github.com/bansal-deepu/Sales_Data_Analysis) • [📖 Readme & Insights](https://github.com/bansal-deepu/Sales_Data_Analysis#readme) |
 
 ---
 
 # 🚀 Analytics & Domain Interests
 
 <p align="center">
+<img src="https://img.shields.io/badge/Sales_Analytics-27AE60?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Customer_Churn_Analysis-E74C3C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Revenue_Optimization-27AE60?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Cohort_Analysis-8E44AD?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Margin_Optimization-F39C12?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Promotion_ROI-8E44AD?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Predictive_Modeling-2980B9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Machine_Learning-34495E?style=for-the-badge"/>
 </p>
 
 ---
@@ -99,12 +100,13 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 ## 👤 Author & Connect
 
 **Deepanshu Bansal**  
+* 📍 Gharaunda, Haryana, India  
 * 💼 [LinkedIn Profile](https://www.linkedin.com/in/deepanshu-bansal-55db36)  
 * 🐙 [GitHub Profile](https://github.com/bansal-deepu)  
-* ✉️ Bansaldeepanshu1976@gmail.com
+* ✉️️ [Email](mailto:deepanshubansal.work@gmail.com)
 
 <p align="center">
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=Bansaldeepanshu1976@gmail.com" target="_blank" rel="noopener noreferrer">
+<a href="mailto:deepanshubansal.work@gmail.com" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
@@ -120,7 +122,7 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 ---
 
 <h2 align="center">
-💡 *"Turning Raw Data into Strategic Business Decisions."*
+💡 * Turning Raw Data into Strategic Business Decisions. *
 </h2>
 
 <p align="center">
