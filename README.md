@@ -9,6 +9,9 @@
 </h3>
 
 <p align="center">
+  <a href="https://bansal-deepu.github.io/bansal-deepu/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Website-0078D4?style=for-the-badge&logoColor=white"/>
+  </a>
   <a href="./resume/Deepanshu_Bansal_Resume.docx" target="_blank">
     <img src="https://img.shields.io/badge/📄_Download_Resume-0A66C2?style=for-the-badge&logoColor=white"/>
   </a>
@@ -96,7 +99,7 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 | Domain | Credential Name | Certificate Link |
 | :--- | :--- | :---: |
 | 📊 **Data Analytics** | Data Analyst: Basics to Advanced | [👁️ View Certificate](./certificates/Data%20Analyst%20Basics%20to%20Advanced%20Certificate.pdf) |
-| 🗄️ **SQL & Databases** | SQL Certificate | [👁️ View Certificate](./certificates/SQL%20Certificate.pdf) |
+| 🗄️ **SQL & Databases** | SQL Certificate | [👁️️ View Certificate](./certificates/SQL%20Certificate.pdf) |
 | 📈 **Business Intelligence** | Power BI Certificate | [👁️ View Certificate](./certificates/Power%20BI%20certificate.pdf) |
 | 🐍 **Python Programming** | Python Pro Certificate | [👁️ View Certificate](./certificates/Python%20Pro%20certificate.pdf) |
 | 📗 **Spreadsheets & Modeling** | Microsoft Excel: Beginner to Advance | [👁️ View Certificate](./certificates/Microsoft%20Excel%20Begineer%20to%20Advance%20certificate.pdf) |
@@ -120,12 +123,17 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 
 **Deepanshu Bansal**  
 * 📍 Gharaunda, Haryana, India  
+* 🌐 [Live Portfolio Website](https://bansal-deepu.github.io/bansal-deepu/)  
 * 📄 [Download Resume](./resume/Deepanshu_Bansal_Resume.docx)  
 * 💼 [LinkedIn Profile](https://www.linkedin.com/in/deepanshu-bansal-55db36)  
 * 🐙 [GitHub Profile](https://github.com/bansal-deepu)  
-* ✉️ [Email](mailto:deepanshubansal.work@gmail.com)
+* ✉️️ [Email](mailto:deepanshubansal.work@gmail.com)
 
 <p align="center">
+<a href="https://bansal-deepu.github.io/bansal-deepu/" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/Portfolio-0078D4?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
 <a href="./resume/Deepanshu_Bansal_Resume.docx" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledocs&logoColor=white"/>
 </a>
