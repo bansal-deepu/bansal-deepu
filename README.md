@@ -12,7 +12,7 @@
   <a href="https://bansal-deepu.github.io/bansal-deepu/" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Website-0078D4?style=for-the-badge&logoColor=white"/>
   </a>
-  <a href="./resume/Deepanshu_Bansal_Resume.docx" target="_blank">
+  <a href="./resume/Deepanshu_Bansal_Resume.pdf" target="_blank">
     <img src="https://img.shields.io/badge/📄_Download_Resume-0A66C2?style=for-the-badge&logoColor=white"/>
   </a>
 </p>
@@ -127,7 +127,6 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 * 📄 [Download Resume](./resume/Deepanshu_Bansal_Resume.docx)  
 * 💼 [LinkedIn Profile](https://www.linkedin.com/in/deepanshu-bansal-55db36)  
 * 🐙 [GitHub Profile](https://github.com/bansal-deepu)  
-* ✉️️ [Email](mailto:bansaldeepanshu1976@gmail.com)
 
 <p align="center">
 <a href="https://bansal-deepu.github.io/bansal-deepu/" target="_blank" rel="noopener noreferrer">
@@ -136,10 +135,6 @@ I'm an **Aspiring Data Analyst** passionate about extracting meaningful insights
 
 <a href="./resume/Deepanshu_Bansal_Resume.docx" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledocs&logoColor=white"/>
-</a>
-
-<a href="mailto:bansaldeepanshu1976@gmail.com" target="_blank" rel="noopener noreferrer">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/in/deepanshu-bansal-55db36" target="_blank" rel="noopener noreferrer">
